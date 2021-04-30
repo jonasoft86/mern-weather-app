@@ -5,6 +5,12 @@ PORT=5000
 API_KEY=20571ab45c74dc2a1897b60c5b8047a1
 NODE_ENV=production
 
+Para usar en local, ir a client/src/config/index.js
+baseUrl = "http://localhost:5000";
+
+Para usar en produccion
+baseUrl = "http://mern-app-clima.herokuapp.com/api/weather";
+
 Ejecutar 
 npm run start
 ##############
