@@ -1,1 +1,1 @@
-export const baseUrl = "http://mern-app-clima.herokuapp.com/api/weather";
+export const baseUrl = "https://mern-app-clima.herokuapp.com/api/weather";
