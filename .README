@@ -1,0 +1,10 @@
+##############
+
+crear fichero .config.env si es que no existe
+PORT=5000
+API_KEY=20571ab45c74dc2a1897b60c5b8047a1
+NODE_ENV=production
+
+Ejecutar 
+npm run start
+##############
