@@ -1,10 +1,12 @@
-const express = require("express");
-const router = express.Router();
+const { Router } = require('express');
+const router = Router();
 
-const {
-  getWatherData,
-} = require("../controllers/WeatherControllers");
+const { getWatherData } = require("../controllers/WeatherControllers");
 
-router.get("/", getWatherData);
+router.route('/')
+    .get(getWatherData)
+
+router.route('/:city')
+    .get(getWatherData)
 
 module.exports = router;
